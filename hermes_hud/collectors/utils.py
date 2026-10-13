@@ -52,6 +52,6 @@ def parse_timestamp(value) -> Optional[datetime]:
                 return datetime.fromtimestamp(float(value))
             except ValueError:
                 return datetime.fromisoformat(value)
-    except (ValueError, TypeError, OSError):
+    except (ValueError, TypeError, OSError, OverflowError):
         pass
     return None
